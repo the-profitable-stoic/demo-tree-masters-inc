@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-tree-masters-inc.dream-surge.com/sitemap-index.xml

@@ -1,0 +1,566 @@
+{
+  "business": {
+    "name": "Tree Masters, Inc.",
+    "phone": "+15037714061",
+    "category": "tree service",
+    "city": "Portland",
+    "state": "OR"
+  },
+  "design": {
+    "preset": {
+      "id": "tree-service-dark-premium",
+      "categoryGroup": "tree-service",
+      "name": "Dark Premium",
+      "recipeFile": "tree-service/dark-premium.astro",
+      "colors": {
+        "primary": "#86EFAC",
+        "primaryDark": "#6bbf8a",
+        "primaryLight": "#cff9de",
+        "secondary": "#2A2A2A",
+        "accent": "#98f1b8",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "tree-service/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Portland's Trusted Tree Experts",
+      "heroSubline": "Safe, reliable tree services for your home or business. Serving Portland and surrounding areas for over a decade.",
+      "aboutTitle": "Protecting Portland's Urban Forest",
+      "aboutText": [
+        "Tree Masters, Inc. was founded on a passion for trees and a commitment to the Portland community. We saw a need for skilled and responsible tree care, especially given our region's unique climate and the prevalence of mature trees in our neighborhoods.",
+        "Our approach is rooted in sound arboricultural practices and a deep understanding of the local ecosystem. We prioritize the health and longevity of your trees, offering tailored solutions that minimize environmental impact and maximize the benefits they provide.",
+        "We're proud to support local initiatives that promote tree planting and education. We believe that by working together, we can ensure a thriving urban forest for generations to come."
+      ],
+      "valueProps": [
+        {
+          "title": "Certified Arborists",
+          "description": "Our team includes ISA-certified arborists with extensive knowledge of tree health and safety."
+        },
+        {
+          "title": "Safety First",
+          "description": "We adhere to strict safety protocols and carry comprehensive insurance coverage."
+        },
+        {
+          "title": "Environmentally Responsible",
+          "description": "We use sustainable practices and minimize our impact on the environment."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand the specific challenges and opportunities of tree care in the Portland metro area."
+        }
+      ],
+      "ctaHeadline": "Request a Free Estimate Today",
+      "ctaSubline": "Get expert advice and a transparent quote for your tree care needs."
+    },
+    "services": [
+      {
+        "slug": "tree-trimming",
+        "name": "Tree Trimming & Pruning",
+        "shortDescription": "Enhance the health, beauty, and safety of your trees with expert trimming.",
+        "description": "Proper tree trimming and pruning are essential for maintaining the health, structural integrity, and aesthetic appeal of your trees. In Portland's climate, with its wet winters and occasional ice storms, regular trimming can prevent broken limbs and reduce the risk of damage to your property. Our certified arborists use industry-best practices to selectively remove branches, improve airflow, and promote healthy growth. We consider the specific species, age, and condition of each tree to ensure the best possible outcome. Whether you need routine maintenance or corrective pruning, we have the expertise to meet your needs.\n\nWe specialize in crown thinning, which reduces the density of the tree's canopy to allow more light to penetrate and improve air circulation. We also offer crown raising to increase clearance for walkways, driveways, or structures. Our goal is to enhance the natural form of your trees while maximizing their health and longevity. We also provide specialized pruning to increase fruit production for apple, pear, and other fruit trees common in Portland gardens.\n\nTree Masters, Inc. is committed to responsible trimming practices. We never top trees, which can weaken their structure and make them more susceptible to disease. Instead, we use targeted cuts to promote healthy growth and maintain the tree's natural shape. We always clean up thoroughly after each job, leaving your property looking its best.",
+        "process": [
+          "Step 1: Assessment - We evaluate the tree's health, structure, and safety.",
+          "Step 2: Planning - We develop a customized trimming plan based on your goals and the tree's needs.",
+          "Step 3: Execution - Our skilled team performs the trimming with precision and care.",
+          "Step 4: Cleanup - We remove all debris and leave your property clean and tidy."
+        ],
+        "benefits": [
+          "Improved tree health and longevity",
+          "Enhanced safety and reduced risk of property damage",
+          "Increased sunlight and airflow",
+          "Improved aesthetic appeal",
+          "Preventative measures against disease and infestation"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my trees trimmed?",
+            "answer": "The frequency of trimming depends on the species, age, and growth rate of your trees. Generally, mature trees should be trimmed every 3-5 years, while younger trees may require more frequent attention. We can assess your trees and recommend a trimming schedule that meets their specific needs."
+          },
+          {
+            "question": "What is the difference between trimming and pruning?",
+            "answer": "While the terms are often used interchangeably, trimming generally refers to the removal of overgrown or unwanted branches, while pruning is a more targeted approach that focuses on shaping the tree and promoting healthy growth. Both are important for maintaining the health and appearance of your trees."
+          },
+          {
+            "question": "Do you offer emergency tree trimming services?",
+            "answer": "Yes, we provide 24/7 emergency tree trimming services for hazardous situations, such as fallen limbs or trees that pose an immediate threat to property or safety. Contact us immediately if you have an emergency."
+          }
+        ]
+      },
+      {
+        "slug": "tree-removal",
+        "name": "Tree Removal",
+        "shortDescription": "Safe and efficient tree removal services when necessary.",
+        "description": "Sometimes, tree removal is the only option, especially in Portland where older homes can be threatened by large failing trees. Whether a tree is dead, diseased, damaged, or poses a hazard to your property, Tree Masters, Inc. can safely and efficiently remove it. Our experienced team has the equipment and expertise to handle even the most challenging tree removal projects. We prioritize safety and minimize disruption to your property. We can also assist with stump grinding and removal to restore your landscape.\n\nWe carefully assess each tree removal project to determine the best approach. We consider factors such as the tree's size, location, proximity to structures, and the presence of underground utilities. We use specialized equipment, such as cranes and rigging systems, to safely lower branches and sections of the trunk to the ground. Our goal is to remove the tree with minimal impact on your surrounding landscape.\n\nTree Masters, Inc. is committed to responsible tree removal practices. We always obtain the necessary permits and comply with local regulations. We can also advise you on replacement options and help you select new trees that are well-suited to your property and the Portland climate. We also offer wood chipping services to reuse removed tree limbs for mulch, reducing waste.",
+        "process": [
+          "Step 1: Assessment - We evaluate the tree and its surroundings to determine the safest removal method.",
+          "Step 2: Permitting - We obtain any necessary permits from the city of Portland.",
+          "Step 3: Removal - Our skilled team removes the tree with precision and care.",
+          "Step 4: Cleanup - We remove all debris and grind the stump (if requested)."
+        ],
+        "benefits": [
+          "Elimination of hazardous trees",
+          "Prevention of property damage",
+          "Improved safety",
+          "Increased sunlight and airflow",
+          "Restoration of landscape"
+        ],
+        "faq": [
+          {
+            "question": "How much does tree removal cost?",
+            "answer": "The cost of tree removal depends on several factors, including the size, location, and condition of the tree, as well as the complexity of the removal process. We offer free estimates to provide you with a transparent and accurate quote."
+          },
+          {
+            "question": "Do I need a permit to remove a tree?",
+            "answer": "The City of Portland has specific regulations regarding tree removal. In many cases, a permit is required, especially for trees on private property. We can assist you with the permit application process."
+          },
+          {
+            "question": "What happens to the wood after the tree is removed?",
+            "answer": "We offer several options for the wood after tree removal, including chipping it for mulch, hauling it away for disposal, or leaving it for you to use as firewood. We can discuss these options with you during the estimate process."
+          }
+        ]
+      },
+      {
+        "slug": "stump-grinding",
+        "name": "Stump Grinding & Removal",
+        "shortDescription": "Remove unsightly tree stumps and reclaim your yard.",
+        "description": "After a tree is removed, the stump can be an eyesore and a potential hazard. Tree Masters, Inc. offers professional stump grinding and removal services to completely eliminate tree stumps from your property. Our specialized equipment can grind stumps of any size, leaving you with a clean and level surface. We can also remove the stump grindings and backfill the area with topsoil, preparing it for new landscaping.\n\nStump grinding is a cost-effective and efficient way to remove tree stumps. Our stump grinders use high-speed blades to grind the stump into small wood chips. The depth of the grind can be adjusted to accommodate your specific needs. After the stump is ground, we can remove the grindings and backfill the area with topsoil. This creates a smooth and even surface that is ready for planting or other landscaping projects.\n\nTree Masters, Inc. is committed to providing safe and efficient stump grinding services. Our team is trained to operate our equipment safely and responsibly. We take precautions to protect your property and minimize disruption to your landscape. We also offer stump removal services for situations where grinding is not feasible.",
+        "process": [
+          "Step 1: Assessment - We evaluate the stump and its surroundings to determine the best grinding method.",
+          "Step 2: Grinding - Our skilled team grinds the stump to the desired depth.",
+          "Step 3: Cleanup - We remove the grindings and backfill the area with topsoil (if requested).",
+          "Step 4: Restoration - We level the area and prepare it for new landscaping."
+        ],
+        "benefits": [
+          "Elimination of unsightly stumps",
+          "Prevention of hazards",
+          "Improved aesthetics",
+          "Increased usable space",
+          "Preparation for new landscaping"
+        ],
+        "faq": [
+          {
+            "question": "How long does stump grinding take?",
+            "answer": "The time it takes to grind a stump depends on its size and the type of wood. Most stumps can be ground in a few hours."
+          },
+          {
+            "question": "Will stump grinding damage my lawn?",
+            "answer": "We take precautions to minimize damage to your lawn during stump grinding. We use mats to protect the grass and carefully control the direction of the grindings."
+          },
+          {
+            "question": "Can I plant grass or a new tree where the stump was?",
+            "answer": "Yes, you can plant grass or a new tree where the stump was. We recommend removing the stump grindings and backfilling the area with topsoil to provide a healthy growing medium."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-tree-service",
+        "name": "24/7 Emergency Tree Service",
+        "shortDescription": "Rapid response for storm damage and hazardous tree situations.",
+        "description": "Portland's weather, with its frequent storms and occasional ice, can create hazardous tree situations. Tree Masters, Inc. offers 24/7 emergency tree service to address urgent needs. Whether you have a fallen tree blocking your driveway, a broken limb threatening your home, or a tree that poses an immediate safety risk, our team is ready to respond quickly and efficiently. We have the equipment and expertise to handle any emergency tree situation.\n\nOur emergency tree service includes tree removal, tree trimming, and debris removal. We prioritize safety and work to minimize further damage to your property. We can also assist with insurance claims and provide documentation of the damage. We understand that emergency tree situations can be stressful, and we are committed to providing prompt and professional service.\n\nTree Masters, Inc. is available 24 hours a day, 7 days a week to handle your emergency tree needs. Contact us immediately if you have a hazardous tree situation.",
+        "process": [
+          "Step 1: Call - Contact us immediately for emergency assistance.",
+          "Step 2: Assessment - We assess the situation and determine the best course of action.",
+          "Step 3: Action - Our skilled team removes the hazard and minimizes further damage.",
+          "Step 4: Cleanup - We remove all debris and restore safety to your property."
+        ],
+        "benefits": [
+          "Rapid response to emergencies",
+          "Safe and efficient hazard removal",
+          "Prevention of further damage",
+          "Peace of mind",
+          "Assistance with insurance claims"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a tree emergency?",
+            "answer": "A tree emergency is any situation where a tree poses an immediate threat to safety or property. This can include fallen trees, broken limbs, trees leaning precariously, or trees damaged by storms."
+          },
+          {
+            "question": "How quickly can you respond to an emergency?",
+            "answer": "We strive to respond to emergency calls as quickly as possible. Our response time will vary depending on our current workload and the location of the emergency."
+          },
+          {
+            "question": "Do you work with insurance companies?",
+            "answer": "Yes, we work with most insurance companies and can provide documentation to support your claim."
+          }
+        ]
+      },
+      {
+        "slug": "tree-risk-assessment",
+        "name": "Tree Risk Assessments",
+        "shortDescription": "Comprehensive evaluations to identify and mitigate potential tree hazards.",
+        "description": "Protect your property and loved ones with a professional tree risk assessment from Tree Masters, Inc. Our certified arborists can identify potential hazards, such as structural weaknesses, diseases, and environmental factors that could lead to tree failure. We provide detailed reports with recommendations for mitigating risks and ensuring the long-term health and safety of your trees. Particularly important given Portland's earthquake risk and propensity for ice storms.\n\nOur tree risk assessments include a thorough visual inspection of the tree, as well as an evaluation of the surrounding environment. We assess the tree's overall health, structural integrity, and potential for failure. We also consider factors such as soil conditions, wind exposure, and proximity to structures. Our reports provide detailed information about the identified risks, as well as recommendations for addressing them.\n\nTree Masters, Inc. is committed to providing accurate and reliable tree risk assessments. Our certified arborists have the knowledge and experience to identify potential hazards and provide practical solutions. We can help you protect your property and ensure the safety of your trees.",
+        "process": [
+          "Step 1: Inspection - A certified arborist conducts a thorough visual inspection of the tree.",
+          "Step 2: Evaluation - The arborist assesses the tree's health, structure, and environment.",
+          "Step 3: Reporting - We provide a detailed report with identified risks and recommendations.",
+          "Step 4: Mitigation - We implement recommended solutions to mitigate risks and improve tree health."
+        ],
+        "benefits": [
+          "Identification of potential hazards",
+          "Prevention of property damage",
+          "Improved safety",
+          "Peace of mind",
+          "Informed decision-making"
+        ],
+        "faq": [
+          {
+            "question": "Why should I have a tree risk assessment?",
+            "answer": "A tree risk assessment can help you identify potential hazards before they become a problem. It can also help you make informed decisions about tree care and maintenance."
+          },
+          {
+            "question": "How often should I have a tree risk assessment?",
+            "answer": "The frequency of tree risk assessments depends on the age, species, and condition of your trees. Generally, mature trees should be assessed every 1-3 years."
+          },
+          {
+            "question": "Can a tree risk assessment guarantee that a tree will not fail?",
+            "answer": "A tree risk assessment cannot guarantee that a tree will not fail, but it can help you identify potential hazards and take steps to mitigate them."
+          }
+        ]
+      },
+      {
+        "slug": "arborist-consultation",
+        "name": "Arborist Consultations",
+        "shortDescription": "Expert advice on tree care, planting, and preservation.",
+        "description": "Need expert advice on tree care, planting, or preservation? Tree Masters, Inc. offers professional arborist consultations to address your specific needs. Our certified arborists can provide guidance on a wide range of topics, including tree selection, planting techniques, disease diagnosis, and treatment options. We can also help you develop a long-term tree care plan that promotes the health and longevity of your trees. Especially useful given Portland's specific climate and common tree diseases.\n\nOur arborist consultations include a thorough assessment of your trees and their environment. We listen to your concerns and provide tailored recommendations based on your specific needs. We can also provide written reports with detailed information and action plans.\n\nTree Masters, Inc. is committed to providing expert and unbiased arborist consultations. Our certified arborists have the knowledge and experience to help you make informed decisions about your trees.",
+        "process": [
+          "Step 1: Scheduling - Schedule a consultation with one of our certified arborists.",
+          "Step 2: Assessment - The arborist assesses your trees and their environment.",
+          "Step 3: Consultation - The arborist provides expert advice and recommendations.",
+          "Step 4: Reporting - We provide a written report with detailed information and action plans (if requested)."
+        ],
+        "benefits": [
+          "Expert advice on tree care",
+          "Informed decision-making",
+          "Improved tree health",
+          "Long-term tree care plan",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What can I expect during an arborist consultation?",
+            "answer": "During an arborist consultation, our certified arborist will assess your trees, listen to your concerns, and provide expert advice and recommendations."
+          },
+          {
+            "question": "How much does an arborist consultation cost?",
+            "answer": "The cost of an arborist consultation depends on the scope of the project and the time required. We offer competitive rates and transparent pricing."
+          },
+          {
+            "question": "Can an arborist help me choose the right tree for my property?",
+            "answer": "Yes, our certified arborists can help you choose the right tree for your property based on your preferences, site conditions, and long-term goals."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Tree Removal",
+        "text": "Tree Masters did an amazing job removing a large, hazardous maple tree from our backyard. The crew was professional, efficient, and took great care to protect our property. They even cleaned up all the debris! Highly recommend.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Tree Trimming",
+        "text": "We hired Tree Masters to trim our overgrown apple tree. They did a fantastic job shaping the tree and removing dead branches. The tree looks much healthier now, and we're looking forward to a better harvest next year. There was a slight delay in scheduling, but the work itself was great.",
+        "date": "2024-12-02"
+      },
+      {
+        "name": "Emily L.",
+        "rating": 5,
+        "service": "Stump Grinding",
+        "text": "I had a really old stump that was an eyesore in my front yard. Tree Masters came out and ground it down quickly and efficiently. You can't even tell there was a tree there before! Great service and fair price.",
+        "date": "2025-01-08"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Emergency Tree Service",
+        "text": "During the last ice storm, a large branch fell on our roof. Tree Masters responded quickly and removed the branch safely. They were professional and courteous, even in a stressful situation. I'm very grateful for their prompt service.",
+        "date": "2025-02-12"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Tree Risk Assessment",
+        "text": "We had Tree Masters do a risk assessment on several mature trees on our property. The arborist was thorough and knowledgeable. We received a detailed report with recommendations for addressing potential hazards. Very helpful!",
+        "date": "2025-03-01"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 5,
+        "service": "Arborist Consultation",
+        "text": "I needed help choosing the right trees to plant in my yard. The arborist from Tree Masters provided excellent advice and helped me select species that are well-suited to the Portland climate and my soil conditions. Highly recommend their consultation services.",
+        "date": "2025-03-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Tree Service Portland OR | Tree Masters, Inc.",
+        "description": "Expert tree services in Portland, OR. Trimming, removal, emergency service, and arborist consultations. Serving Portland since 2012."
+      },
+      "about": {
+        "title": "About Tree Masters, Inc. | Portland Tree Experts",
+        "description": "Learn about Tree Masters, Inc., Portland's trusted tree service provider. Our mission, values, and commitment to the community."
+      },
+      "services": {
+        "title": "Portland OR Tree Services | Tree Masters, Inc.",
+        "description": "Comprehensive tree services in Portland, OR: trimming, removal, stump grinding, emergency service, risk assessments, and consultations."
+      },
+      "contact": {
+        "title": "Contact Tree Masters, Inc. | Portland OR Tree Service",
+        "description": "Contact Tree Masters, Inc. for all your tree care needs in Portland, OR. Get a free estimate today!"
+      },
+      "reviews": {
+        "title": "Tree Masters, Inc. Reviews | Portland OR",
+        "description": "Read reviews from satisfied customers of Tree Masters, Inc. in Portland, OR. See why we're the trusted choice for tree care."
+      },
+      "service-areas": {
+        "title": "Tree Service Areas | Portland OR & Beyond",
+        "description": "Tree Masters, Inc. provides tree services in Portland, Beaverton, Hillsboro, Lake Oswego, and Tigard. Find a local tree expert near you."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Beaverton",
+        "slug": "beaverton-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is proud to offer comprehensive tree services to the residents and businesses of Beaverton, Oregon. With its established neighborhoods featuring many homes built in the 1970s and 80s, Beaverton boasts mature trees that require expert care. Our team is equipped to handle everything from routine pruning and tree trimming to complex tree removal and stump grinding. We understand the unique needs of trees in Beaverton's climate, characterized by mild, wet winters and persistent rain, which can contribute to fungal diseases and other tree health issues.\n\nWe are committed to providing Beaverton homeowners with the highest quality tree care services to ensure the health, safety, and beauty of their properties. Whether you need assistance with storm damage cleanup, tree risk assessment, or simply want to enhance the aesthetic appeal of your landscape, Tree Masters, Inc. is here to help. We are dedicated to preserving the natural beauty of Beaverton, one tree at a time. We also offer emergency tree services, so call us any time, day or night, for urgent assistance.",
+        "localContext": "Beaverton, known for its suburban ranch homes built primarily in the 1970s and 80s, experiences mild, wet winters. This climate impacts the types of tree diseases and growth patterns observed in the area.",
+        "nearbyAreas": [
+          "Portland",
+          "Hillsboro",
+          "Tigard"
+        ]
+      },
+      {
+        "city": "Hillsboro",
+        "slug": "hillsboro-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. provides expert tree care services to the rapidly growing city of Hillsboro, Oregon. As a hub of the tech corridor, Hillsboro features newer housing developments and a focus on modern landscaping. We understand the specific needs of trees in this dynamic environment, offering a full range of services from planting and pruning to removal and stump grinding. Our team is committed to ensuring the health and beauty of your trees, enhancing the value and appeal of your property.\n\nHillsboro's climate, with its mild, wet winters, presents unique challenges for tree care. We are experienced in identifying and treating common tree diseases and pests that thrive in this environment. Whether you need assistance with tree selection for new construction, regular maintenance for established trees, or emergency storm damage cleanup, Tree Masters, Inc. is your trusted partner in Hillsboro. We offer free consultations and estimates, ensuring transparency and customer satisfaction.",
+        "localContext": "Hillsboro, a significant city in Oregon's tech corridor, features newer housing developments and a climate characterized by mild, wet winters, influencing the local tree species and their health.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Forest Grove",
+          "Cornelius"
+        ]
+      },
+      {
+        "city": "Lake Oswego",
+        "slug": "lake-oswego-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is dedicated to providing exceptional tree care services to the discerning residents of Lake Oswego, Oregon. Known for its upscale lakefront homes and meticulously maintained landscapes, Lake Oswego demands the highest standards of tree care. We offer a comprehensive range of services, including tree pruning, tree removal, stump grinding, and tree health assessments, to ensure the beauty and vitality of your property.\n\nOur team understands the unique challenges of maintaining trees in Lake Oswego's climate, characterized by mild, wet winters and proximity to the lake. We are experienced in identifying and treating common tree diseases and pests that thrive in this environment. Whether you need assistance with preserving mature trees, enhancing your lakefront views, or ensuring the safety of your property, Tree Masters, Inc. is your trusted partner in Lake Oswego.",
+        "localContext": "Lake Oswego, known for its upscale lakefront properties, experiences mild, wet winters, which affects the health and maintenance of the area's mature trees.",
+        "nearbyAreas": [
+          "West Linn",
+          "Tualatin",
+          "Portland"
+        ]
+      },
+      {
+        "city": "Tigard",
+        "slug": "tigard-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is proud to serve the residents and businesses of Tigard, Oregon, with our expert tree care services. Characterized by many homes built in the 1970s and 80s, Tigard boasts mature trees that require professional attention. We offer a full range of services, including tree pruning, tree removal, stump grinding, and tree health assessments, to ensure the safety, health, and beauty of your property.\n\nTigard's climate, with its mild, wet winters, presents unique challenges for tree care. We are experienced in identifying and treating common tree diseases and pests that thrive in this environment. Whether you need assistance with storm damage cleanup, tree risk assessment, or simply want to enhance the aesthetic appeal of your landscape, Tree Masters, Inc. is here to help. We also offer emergency tree services, so call us any time, day or night, for urgent assistance.",
+        "localContext": "Tigard, with its prevalence of 1970s and 80s suburban homes, experiences mild, wet winters that contribute to specific tree health concerns.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Tualatin",
+          "Lake Oswego"
+        ]
+      },
+      {
+        "city": "Portland",
+        "slug": "portland-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is a leading provider of tree care services in Portland, Oregon, serving the diverse needs of homeowners and businesses throughout the city. From the historic neighborhoods of Southeast to the modern developments of the Pearl District, we offer a comprehensive range of services to ensure the health, safety, and beauty of your trees. Our team is experienced in all aspects of tree care, including pruning, removal, stump grinding, and emergency services.\n\nPortland's unique urban environment and climate, characterized by mild, wet winters and dry summers, present specific challenges for tree care. We understand the importance of preserving Portland's urban forest and are committed to sustainable practices. Whether you need assistance with tree selection for a new planting project, routine maintenance for mature trees, or emergency storm damage cleanup, Tree Masters, Inc. is your trusted partner in Portland.",
+        "localContext": "Portland's diverse neighborhoods and climate, featuring mild, wet winters and dry summers, create a unique environment for tree care and urban forestry.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Gresham",
+          "Vancouver, WA"
+        ]
+      },
+      {
+        "city": "Gresham",
+        "slug": "gresham-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is dedicated to providing high-quality tree care services to the residents and businesses of Gresham, Oregon. As the fourth largest city in Oregon, Gresham boasts a mix of residential and commercial properties with diverse tree care needs. We offer a comprehensive range of services, including tree pruning, tree removal, stump grinding, and tree health assessments, to ensure the safety, health, and beauty of your property.\n\nGresham's climate, with its mild, wet winters and dry summers, presents unique challenges for tree care. We are experienced in identifying and treating common tree diseases and pests that thrive in this environment. Whether you need assistance with preserving mature trees, enhancing your landscape, or ensuring the safety of your property, Tree Masters, Inc. is your trusted partner in Gresham.",
+        "localContext": "Gresham's climate, characterized by mild, wet winters and dry summers, requires specialized tree care practices to maintain tree health and prevent disease.",
+        "nearbyAreas": [
+          "Portland",
+          "Troutdale",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "West Linn",
+        "slug": "west-linn-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. offers expert tree care services to the residents and businesses of West Linn, Oregon. Known for its beautiful neighborhoods and mature trees, West Linn requires professional tree care to maintain its scenic beauty. We provide a full range of services, including tree pruning, tree removal, stump grinding, and tree health assessments, tailored to the specific needs of West Linn's landscape.\n\nWest Linn's climate, with its mild, wet winters and dry summers, presents unique challenges for tree care. We are experienced in identifying and treating common tree diseases and pests that thrive in this environment. Whether you need assistance with preserving mature trees, enhancing your property's value, or ensuring the safety of your property, Tree Masters, Inc. is your reliable partner in West Linn.",
+        "localContext": "West Linn's mature trees and climate, featuring mild, wet winters and dry summers, create a unique environment requiring specialized tree care practices.",
+        "nearbyAreas": [
+          "Lake Oswego",
+          "Tualatin",
+          "Oregon City"
+        ]
+      },
+      {
+        "city": "Tualatin",
+        "slug": "tualatin-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is proud to serve the community of Tualatin, Oregon, with comprehensive tree care services. Tualatin's blend of residential and commercial areas, along with its commitment to green spaces, requires professional tree management. We offer a full spectrum of services, from routine pruning to emergency tree removal, ensuring the safety and beauty of your property.\n\nOur team is well-versed in the challenges posed by Tualatin's climate, with its mild, wet winters and dry summers. We are adept at diagnosing and treating common tree ailments in the region. Whether you're looking to enhance your landscape, address potential hazards, or simply maintain the health of your trees, Tree Masters, Inc. is your trusted local provider.",
+        "localContext": "Tualatin's climate and diverse landscape, blending residential and commercial areas, necessitates expert tree care to maintain the health and safety of its urban forest.",
+        "nearbyAreas": [
+          "Tigard",
+          "Sherwood",
+          "Wilsonville"
+        ]
+      },
+      {
+        "city": "Sherwood",
+        "slug": "sherwood-or",
+        "state": "OR",
+        "content": "Tree Masters, Inc. is pleased to offer its professional tree services to the growing community of Sherwood, Oregon. Sherwood is known for its family-friendly atmosphere and commitment to preserving its natural beauty. We offer a wide array of services, including tree pruning, removal, and stump grinding, all tailored to meet the specific needs of Sherwood's residents and businesses.\n\nSherwood's climate, characterized by mild, wet winters and dry summers, can pose challenges for tree health. Our experienced team is equipped to diagnose and treat common tree diseases and pests in the area. Whether you're looking to enhance your property's curb appeal or ensure the safety of your trees, Tree Masters, Inc. is here to help.",
+        "localContext": "Sherwood's climate, with its mild, wet winters and dry summers, requires specialized tree care to maintain the health and beauty of its urban forest and surrounding natural areas.",
+        "nearbyAreas": [
+          "Tualatin",
+          "Newberg",
+          "Wilsonville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tree-trimming": "/images/service-tree-trimming.webp",
+      "tree-removal": "/images/service-tree-removal.webp",
+      "stump-grinding": "/images/service-stump-grinding.webp",
+      "emergency-tree-service": "/images/service-emergency-tree-service.webp",
+      "tree-risk-assessment": "/images/service-tree-risk-assessment.webp",
+      "arborist-consultation": "/images/service-arborist-consultation.webp"
+    },
+    "servicesResponsive": {
+      "tree-trimming": {
+        "src": "/images/service-tree-trimming.webp",
+        "srcset": "/images/service-tree-trimming-400w.webp 400w, /images/service-tree-trimming-800w.webp 800w, /images/service-tree-trimming-1200w.webp 1200w, /images/service-tree-trimming.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-removal": {
+        "src": "/images/service-tree-removal.webp",
+        "srcset": "/images/service-tree-removal-400w.webp 400w, /images/service-tree-removal-800w.webp 800w, /images/service-tree-removal-1200w.webp 1200w, /images/service-tree-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stump-grinding": {
+        "src": "/images/service-stump-grinding.webp",
+        "srcset": "/images/service-stump-grinding-400w.webp 400w, /images/service-stump-grinding-800w.webp 800w, /images/service-stump-grinding-1200w.webp 1200w, /images/service-stump-grinding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-tree-service": {
+        "src": "/images/service-emergency-tree-service.webp",
+        "srcset": "/images/service-emergency-tree-service-400w.webp 400w, /images/service-emergency-tree-service-800w.webp 800w, /images/service-emergency-tree-service-1200w.webp 1200w, /images/service-emergency-tree-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-risk-assessment": {
+        "src": "/images/service-tree-risk-assessment.webp",
+        "srcset": "/images/service-tree-risk-assessment-400w.webp 400w, /images/service-tree-risk-assessment-800w.webp 800w, /images/service-tree-risk-assessment-1200w.webp 1200w, /images/service-tree-risk-assessment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "arborist-consultation": {
+        "src": "/images/service-arborist-consultation.webp",
+        "srcset": "/images/service-arborist-consultation-400w.webp 400w, /images/service-arborist-consultation-800w.webp 800w, /images/service-arborist-consultation-1200w.webp 1200w, /images/service-arborist-consultation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
